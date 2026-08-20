@@ -1,9 +1,18 @@
 import ProfileCard from './components/Card';
 const members = [
-  { id: 1, name: 'สมหญิง ใจดี', nickname: 'ฝน',
-    major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชาเขียว', 'แมว'] },
-  // 👉 เพิ่มสมาชิกคนอื่น ๆ ของกลุ่มที่นี่
-];
+  { id: 670710745, name: 'ชัยภัทร รัตนพร',
+    nickname: 'ปลื้ม',
+    major: 'ยังไม่ระบุสาขา', 
+    favorites: ['ชาเขียว', 'แมว'] },
+  { id: 670710326, name: 'พรหมจักรธร เง็กคลอย',
+    nickname: 'กิต',
+    major: 'ยังไม่ระบุสาขา',
+    favorites: ['กาแฟ', 'หมา'] },
+  { id: 670710978, name: 'ณัฏฌา อิ่มหนำ',
+    nickname: 'จั๊บ',
+    major: 'ยังไม่ระบุสาขา',
+    favorites: ['น้ำผลไม้', 'นก'] },
+  ];
 
 function App() {
   return (
