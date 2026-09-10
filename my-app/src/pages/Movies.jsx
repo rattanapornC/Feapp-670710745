@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { movies } from '../data';
 
+
 function Movies() {
   return (
     <div className="mx-auto max-w-5xl p-8">
